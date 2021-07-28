@@ -3,7 +3,7 @@ package Sort.priority_queue;
 import edu.princeton.cs.algs4.IndexMinPQ;
 
 public class MaxPQ<Key extends Comparable<Key>> {     /** 这里看不明白*/
-private Key[] pq;    // 基于堆的完全二叉树
+    private Key[] pq;    // 基于堆的完全二叉树
     private int N = 0;  // PQ索引范围为[1,N], 0不使用
 
     public MaxPQ(int maxN){    // Constructor
